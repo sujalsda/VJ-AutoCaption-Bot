@@ -4,7 +4,7 @@
 
 import pyrogram, os, asyncio
 
-try: app_id = int(os.environ.get("app_id", "24413656"))
+try: app_id = int(os.environ.get("app_id", "24413656f"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
 try: api_hash = os.environ.get("api_hash", "9e189266d4bf25aefb14ce3b3ae32078")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
@@ -24,7 +24,7 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@VJ_Botz</b>"""
+<b>@Sujalpandey010</b>"""
 
 about_message = """
 <b>• Name : <a href=https://t.me/VJ_Botz>VJ AutoCaption</a></b>
